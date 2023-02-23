@@ -1,9 +1,9 @@
 pipeline{
 agent any
 stages{
-stage('test'){
-steps{
-bat 'ECHO Superman'
+stage('test') {
+ steps{
+  bat 'ECHO Superman'
 }
 }
 }
